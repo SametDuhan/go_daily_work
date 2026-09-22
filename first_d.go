@@ -35,7 +35,24 @@ fmt.print("enter your age : ")
 fmt.scan(&age)
 
 fmt.printf("hello %s , you are %d years old",name,age)
-  
+
+package main
+
+import "fmt"
+
+func main() {
+    puan := 75
+
+    if puan >= 90 {
+        fmt.Println("Harf Notu: AA")
+    } else if puan >= 80 {
+        fmt.Println("Harf Notu: BA")
+    } else if puan >= 70 {
+        fmt.Println("Harf Notu: BB")
+    } else {
+        fmt.Println("Daha çok çalışmalısın.")
+    }
+}
 
 
 
