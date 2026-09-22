@@ -18,13 +18,27 @@ fmt.Println(name)
 fmt.Println(surname)
 fmt.Println(a)
 
-  myslice1 := []int{}
-  fmt.Println(len(myslice1))
-  fmt.Println(cap(myslice1))
-  fmt.Println(myslice1)
+myslice1 := []int{}
+fmt.Println(len(myslice1))
+fmt.Println(cap(myslice1))
+fmt.Println(myslice1)
 
 myslice2 := []string{"Go", "Slices", "Are", "Powerful"}
 fmt.Println(len(myslice2))
 fmt.Println(cap(myslice2))
 fmt.Println(myslice2)
+
+fmt.print("Enter Your Name : ")
+fmt.scan(&name)
+
+fmt.print("enter your age : ")
+fmt.scan(&age)
+
+fmt.printf("hello %s , you are %d years old",name,age)
+  
+
+
+
+
+  
 }
